@@ -16,3 +16,10 @@ const PACKAGE_JSON_TEMPLATE = `{
 const encoder = new TextEncoder();
 const content = encoder.encode(PACKAGE_JSON_TEMPLATE);
 await Deno.writeFile('package.json', content);
+
+// Output result
+const path = await Deno.realPath('package.json');
+console.log(`Wrote to ${path}:`);
+console.log('');
+console.log(PACKAGE_JSON_TEMPLATE);
+console.log('');
