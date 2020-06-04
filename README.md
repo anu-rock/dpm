@@ -6,5 +6,5 @@ Nothing more to say.
 
 ---
 
-Copyleft 2020 • MIT licensed
+Copyleft 2020 • MIT licensed  
 Anurag Bhandari ab@anuragbhandari.com
